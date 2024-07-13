@@ -1,0 +1,16 @@
+﻿asgiref
+astroid
+colorama
+Django
+django-crispy-forms
+django-filter
+django-login-required-middleware
+django-widget-tweaks
+isort
+lazy-object-proxy
+mccabe
+pylint
+pytz
+six
+sqlparse
+wrapt
