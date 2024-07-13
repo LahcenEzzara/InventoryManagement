@@ -30,7 +30,6 @@ source env/bin/activate
 Open your Terminal/Command Prompt in the project's root folder and install the required packages using:
 
 ```sh
-Copy code
 pip install -r requirements.txt
 ```
 
@@ -38,8 +37,11 @@ pip install -r requirements.txt
 Run the following commands to make and apply the database migrations:
 
 ```sh
-Copy code
 python manage.py makemigrations
+```
+
+then :
+```sh
 python manage.py migrate
 ```
 
@@ -47,7 +49,6 @@ python manage.py migrate
 After a successful migration, start the Django development server with:
 
 ```sh
-Copy code
 python manage.py runserver
 ```
 
@@ -62,7 +63,6 @@ http://127.0.0.1:[PORT_NUMBER]/
 For the Admin Login credentials, you need to create a superuser. Run the following command and follow the prompts to create a superuser:
 
 ```sh
-Copy code
 python manage.py createsuperuser
 ```
 
